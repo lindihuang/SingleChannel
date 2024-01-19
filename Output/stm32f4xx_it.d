@@ -2,7 +2,7 @@
 ..\..\output\stm32f4xx_it.o: ..\..\User\stm32f4xx_it.h
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\stm32f4xx_it.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h
@@ -39,10 +39,10 @@
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h
 ..\..\output\stm32f4xx_it.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
 ..\..\output\stm32f4xx_it.o: ..\..\MODBUS\port\port.h
-..\..\output\stm32f4xx_it.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\assert.h
-..\..\output\stm32f4xx_it.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\..\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\./usart/bsp_rs232_usart.h
-..\..\output\stm32f4xx_it.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\stm32f4xx_it.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\systick\bsp_SysTick.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\Timer5.h
 ..\..\output\stm32f4xx_it.o: ..\..\User\relay.h

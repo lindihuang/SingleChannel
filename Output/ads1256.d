@@ -1,9 +1,9 @@
 ..\..\output\ads1256.o: ..\..\User\ADS1256.c
-..\..\output\ads1256.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\ads1256.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\ads1256.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h
 ..\..\output\ads1256.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\ads1256.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\ads1256.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\ads1256.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\ads1256.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\ads1256.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\ads1256.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h

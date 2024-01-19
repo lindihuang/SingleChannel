@@ -1,10 +1,10 @@
 ..\..\output\mb.o: ..\..\MODBUS\modbus\mb.c
-..\..\output\mb.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\..\output\mb.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\mb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\mb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\..\output\mb.o: ..\..\User\bsp_led.h
 ..\..\output\mb.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\mb.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\mb.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\mb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\mb.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\mb.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\mb.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h
@@ -41,8 +41,8 @@
 ..\..\output\mb.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h
 ..\..\output\mb.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
 ..\..\output\mb.o: ..\..\MODBUS\port\port.h
-..\..\output\mb.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\assert.h
-..\..\output\mb.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\mb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\..\output\mb.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 ..\..\output\mb.o: ..\..\MODBUS\modbus\include\mb.h
 ..\..\output\mb.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\mb.o: ..\..\MODBUS\modbus\include\mbproto.h
@@ -51,4 +51,5 @@
 ..\..\output\mb.o: ..\..\MODBUS\modbus\include\mbframe.h
 ..\..\output\mb.o: ..\..\MODBUS\modbus\include\mbproto.h
 ..\..\output\mb.o: ..\..\MODBUS\modbus\include\mbfunc.h
+..\..\output\mb.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\mb.o: ..\..\MODBUS\modbus\rtu\mbrtu.h

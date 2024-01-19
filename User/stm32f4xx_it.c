@@ -208,20 +208,19 @@ void RS232_USART_IRQHandler(void)
 void TIM2_IRQHandler(void)
 {
 	TIMERExpiredISR();
-	TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
 	
+	TIM_ClearITPendingBit(TIM2, TIM_IT_Update);
 }
 void GENERAL_TIM_IRQHandler(void)           //Timer4
 {
-
-		Timer3_cout++;
-		TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
-
+	Timer3_cout++;
+	
+	TIM_ClearITPendingBit(TIM3, TIM_IT_Update);
 }
 
 void GENERAL_TIM4_IRQHandler(void)
 {
-			Timer4_cout++;
+	Timer4_cout++;
 
 	TIM_ClearITPendingBit(TIM4, TIM_IT_Update);
 }
@@ -245,25 +244,30 @@ uint16_t Mode_Flag_1;
 //USHORT   usSRegHoldBuf[100];
 void TIM5_IRQHandler(void)
 {
-
-    	Timer5_cout=Timer5_cout+1;
-		  TIM_ClearITPendingBit(TIM5, TIM_IT_Update);
-	    if(Timer5_cout>30)
-			{
-				TIM_ClearITPendingBit(TIM5, TIM_IT_Update);
-				TIM_ITConfig(TIM5, TIM_IT_Update, DISABLE);
-				TIM_SetCounter(TIM5, 0);
-			  TIM_Cmd(TIM5, DISABLE);
-				ucSCoilBuf[4]&=0x7f;
-				Timer5_cout=0;
-				relay15_OFF;
-			}
+	Timer5_cout = Timer5_cout + 1;
+	
+	/** 清除TIMx的中断挂起位 */
+	TIM_ClearITPendingBit(TIM5, TIM_IT_Update);
+	
+	if(Timer5_cout > 30)
+	{
+		/** 清除TIMx的中断挂起位 */
+		TIM_ClearITPendingBit(TIM5, TIM_IT_Update);
 		
-
+		/** 启用或禁用指定的TIM中断 */
+		TIM_ITConfig(TIM5, TIM_IT_Update, DISABLE);
+		
+		/** 设置TIMx计数器寄存器值 */
+		TIM_SetCounter(TIM5, 0);
+		
+		/** 启用或禁用指定TIM外设 */
+		TIM_Cmd(TIM5, DISABLE);
+		
+		ucSCoilBuf[4] &= 0x7f;
+		Timer5_cout = 0;
+		relay15_OFF;
+	}
 }
-
-
-
 
 /******************************************************************************/
 /*                 STM32F4xx Peripherals Interrupt Handlers                   */

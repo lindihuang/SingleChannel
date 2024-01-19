@@ -1,7 +1,5 @@
 #include "port.h"
-/* ----------------------- Variables ----------------------------------------*/
 
-/* ----------------------- Start implementation -----------------------------*/
 void EnterCriticalSection(void)
 {
 	//关闭全局中断
@@ -13,3 +11,9 @@ void ExitCriticalSection(void)
 	//开启全局中断
 	__enable_irq();
 }
+
+
+
+
+
+

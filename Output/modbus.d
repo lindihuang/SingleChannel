@@ -1,9 +1,9 @@
 ..\..\output\modbus.o: ..\..\User\modbus.c
 ..\..\output\modbus.o: ..\..\MODBUS\modbus\include\mb.h
 ..\..\output\modbus.o: ..\..\MODBUS\port\port.h
-..\..\output\modbus.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\assert.h
-..\..\output\modbus.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
-..\..\output\modbus.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\modbus.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\..\output\modbus.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\modbus.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\modbus.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\modbus.o: ..\..\MODBUS\modbus\include\mbproto.h
 ..\..\output\modbus.o: ..\..\MODBUS\modbus\include\mb.h
@@ -47,7 +47,7 @@
 ..\..\output\modbus.o: ..\..\User\bsp_led.h
 ..\..\output\modbus.o: ..\..\User\relay.h
 ..\..\output\modbus.o: ..\..\User\modbus.h
-..\..\output\modbus.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+..\..\output\modbus.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
 ..\..\output\modbus.o: ..\..\User\Timer5.h
 ..\..\output\modbus.o: ..\..\MODBUS\modbus\rtu\mbrtu.h
 ..\..\output\modbus.o: ..\..\User\main.h

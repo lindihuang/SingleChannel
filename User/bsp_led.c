@@ -56,9 +56,13 @@ void LED_GPIO_Config(void)
     
     /*选择要控制的GPIO引脚*/															   
 		GPIO_InitStructure.GPIO_Pin = LED3_PIN;	
-    GPIO_Init(LED3_GPIO_PORT, &GPIO_InitStructure);	
-		
-		/*关闭RGB灯*/
-//		LED_RGBOFF;		
+    GPIO_Init(LED3_GPIO_PORT, &GPIO_InitStructure);		
 }
+
+
+
+
+
 /*********************************************END OF FILE**********************/
+
+

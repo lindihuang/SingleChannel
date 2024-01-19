@@ -2,7 +2,7 @@
 ..\..\output\relay.o: ..\..\User\relay.h
 ..\..\output\relay.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\relay.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\relay.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\relay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\relay.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\relay.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\relay.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h
@@ -40,8 +40,8 @@
 ..\..\output\relay.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
 ..\..\output\relay.o: ..\..\MODBUS\modbus\include\mb.h
 ..\..\output\relay.o: ..\..\MODBUS\port\port.h
-..\..\output\relay.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\assert.h
-..\..\output\relay.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\relay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\..\output\relay.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
 ..\..\output\relay.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\relay.o: ..\..\MODBUS\modbus\include\mbproto.h
 ..\..\output\relay.o: ..\..\MODBUS\modbus\include\mb.h

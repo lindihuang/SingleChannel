@@ -1,12 +1,13 @@
 ..\..\output\portevent.o: ..\..\MODBUS\port\portevent.c
 ..\..\output\portevent.o: ..\..\MODBUS\modbus\include\mb.h
 ..\..\output\portevent.o: ..\..\MODBUS\port\port.h
-..\..\output\portevent.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\assert.h
-..\..\output\portevent.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
-..\..\output\portevent.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\portevent.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\..\output\portevent.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\portevent.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\portevent.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\portevent.o: ..\..\MODBUS\modbus\include\mbproto.h
 ..\..\output\portevent.o: ..\..\MODBUS\modbus\include\mb.h
+..\..\output\portevent.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\portevent.o: ..\..\User\bsp_led.h
 ..\..\output\portevent.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\portevent.o: ..\..\Libraries\CMSIS\Include\core_cm4.h

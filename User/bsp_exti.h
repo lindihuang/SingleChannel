@@ -38,6 +38,11 @@
 #define KEY2_PIN                  GPIO_Pin_13                 
 #define KEY2_GPIO_PORT            GPIOC                      
 #define KEY2_GPIO_CLK             RCC_AHB1Periph_GPIOC
+
+#define KEY9_PIN                  GPIO_Pin_9                 
+#define KEY9_GPIO_PORT            GPIOB                      
+#define KEY9_GPIO_CLK             RCC_AHB1Periph_GPIOB
+
 /*******************************************************/
 
  /** 按键按下标置宏

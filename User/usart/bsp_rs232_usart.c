@@ -140,49 +140,36 @@ void Usart_SendByte( USART_TypeDef * pUSARTx, uint8_t ch )
 	/* 等待发送完毕 */
 	while (USART_GetFlagStatus(pUSARTx, USART_FLAG_TXE) == RESET);	
 }
+
 /*****************  指定长度的发送字符串 **********************/
 void Usart_SendStr_length( USART_TypeDef * pUSARTx, uint8_t *str,uint32_t strlen )
 {
-	unsigned int k=0;
-    do 
-    {
-        Usart_SendByte( pUSARTx, *(str + k) );
-        k++;
-    } while(k < strlen);
+	unsigned int k = 0;
+	
+	do 
+	{
+		Usart_SendByte(pUSARTx, *(str + k));
+		k++;
+		
+	} 
+	while(k < strlen);
 }
 
 /*****************  发送字符串 **********************/
 void Usart_SendString( USART_TypeDef * pUSARTx, uint8_t *str)
 {
-	unsigned int k=0;
-    do 
-    {
-        Usart_SendByte( pUSARTx, *(str + k) );
-        k++;
-    } while(*(str + k)!='\0');
+	unsigned int k = 0;
+	
+	do 
+	{
+		Usart_SendByte(pUSARTx, *(str + k));
+		k++;
+	} 
+	while(*(str + k)!='\0');
 }
 
 
 
-
-/////重定向c库函数printf到串口RS232_USART，重定向后可使用printf函数
-//int fputc(int ch, FILE *f)
-//{
-//		/* 发送一个字节数据到串口RS232_USART */
-//		USART_SendData(RS232_USART, (uint8_t) ch);
-//		
-//		/* 等待发送完毕 */
-//		while (USART_GetFlagStatus(RS232_USART, U  SART_FLAG_TXE) == RESET);		
-//	
-//		return (ch);
-//}
-
-/////重定向c库函数scanf到串口RS232_USART，重写向后可使用scanf、getchar等函数
-//int fgetc(FILE *f)
-//{
-//		/* 等待串口输入数据 */
-//		while (USART_GetFlagStatus(RS232_USART, USART_FLAG_RXNE) == RESET);
-
-//		return (int)USART_ReceiveData(RS232_USART);
-//}
 /*********************************************END OF FILE**********************/
+
+

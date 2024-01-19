@@ -2,7 +2,7 @@
 ..\..\output\bsp_exti.o: ..\..\User\bsp_exti.h
 ..\..\output\bsp_exti.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\bsp_exti.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\bsp_exti.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\bsp_exti.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\bsp_exti.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\bsp_exti.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\bsp_exti.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h
@@ -38,3 +38,4 @@
 ..\..\output\bsp_exti.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h
 ..\..\output\bsp_exti.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h
 ..\..\output\bsp_exti.o: ..\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h
+..\..\output\bsp_exti.o: ..\..\User\systick\bsp_SysTick.h

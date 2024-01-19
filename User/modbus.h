@@ -10,6 +10,7 @@ union LianHeTi
 	char  value[4];
   float d;
 };
+
 extern union LianHeTi test_data1;
 extern union LianHeTi test_data2;
 extern union LianHeTi test_data3;
@@ -28,18 +29,20 @@ extern union LianHeTi test_data27;
 extern union LianHeTi test_data27;
 
 
-void Step(void);
 extern uint16_t GS_Flag;             //光栅是否检测到障碍物的标志：0，没有；1，有
-extern uint16_t jieduan_Flag_1;
 extern uint16_t Mode_Flag_1;
+extern uint16_t jieduan_Flag_1;
 extern uint16_t Start_Over_Flag_1;
-extern USHORT  usSRegHoldBuf[250];
 
 extern UCHAR    ucSCoilBuf[14] ;
 extern USHORT   usSRegInBuf[100];
+extern USHORT  usSRegHoldBuf[250];
 
+void Step(void);
 void AUTO_ZERO(void);
 void  Relay_control(void);
 
 
 #endif /* __MODBUS_H */
+
+

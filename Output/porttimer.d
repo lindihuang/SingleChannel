@@ -1,8 +1,8 @@
 ..\..\output\porttimer.o: ..\..\MODBUS\port\porttimer.c
 ..\..\output\porttimer.o: ..\..\MODBUS\port\port.h
-..\..\output\porttimer.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\assert.h
-..\..\output\porttimer.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
-..\..\output\porttimer.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\porttimer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\..\output\porttimer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\porttimer.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\porttimer.o: ..\..\User\bsp_led.h
 ..\..\output\porttimer.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\porttimer.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
@@ -45,3 +45,4 @@
 ..\..\output\porttimer.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\porttimer.o: ..\..\MODBUS\modbus\include\mbproto.h
 ..\..\output\porttimer.o: ..\..\MODBUS\modbus\include\mb.h
+..\..\output\porttimer.o: ..\..\MODBUS\modbus\include\mbport.h

@@ -2,7 +2,7 @@
 ..\..\output\timer1.o: ..\..\User\Timer1.h
 ..\..\output\timer1.o: ..\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h
 ..\..\output\timer1.o: ..\..\Libraries\CMSIS\Include\core_cm4.h
-..\..\output\timer1.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\timer1.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\timer1.o: ..\..\Libraries\CMSIS\Include\core_cmInstr.h
 ..\..\output\timer1.o: ..\..\Libraries\CMSIS\Include\core_cmFunc.h
 ..\..\output\timer1.o: ..\..\Libraries\CMSIS\Include\core_cmSimd.h

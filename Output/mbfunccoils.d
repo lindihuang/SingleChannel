@@ -1,10 +1,10 @@
 ..\..\output\mbfunccoils.o: ..\..\MODBUS\modbus\functions\mbfunccoils.c
-..\..\output\mbfunccoils.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-..\..\output\mbfunccoils.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\string.h
+..\..\output\mbfunccoils.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+..\..\output\mbfunccoils.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
 ..\..\output\mbfunccoils.o: ..\..\MODBUS\port\port.h
-..\..\output\mbfunccoils.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\assert.h
-..\..\output\mbfunccoils.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\inttypes.h
-..\..\output\mbfunccoils.o: F:\study\XiLiYiQi\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+..\..\output\mbfunccoils.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\assert.h
+..\..\output\mbfunccoils.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\inttypes.h
+..\..\output\mbfunccoils.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
 ..\..\output\mbfunccoils.o: ..\..\MODBUS\modbus\include\mb.h
 ..\..\output\mbfunccoils.o: ..\..\MODBUS\modbus\include\mbport.h
 ..\..\output\mbfunccoils.o: ..\..\MODBUS\modbus\include\mbproto.h
