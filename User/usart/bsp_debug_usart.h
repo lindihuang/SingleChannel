@@ -7,7 +7,7 @@
 
 #define DEBUG_USART                             USART1
 #define DEBUG_USART_CLK                         RCC_APB2Periph_USART1
-#define DEBUG_USART_BAUDRATE                    115200
+#define DEBUG_USART_BAUDRATE                    38400//115200
 
 #define DEBUG_USART_RX_GPIO_PORT                GPIOA
 #define DEBUG_USART_RX_GPIO_CLK                 RCC_AHB1Periph_GPIOA
